@@ -1,5 +1,27 @@
-h1 {
-    color: orange;
-    border: 1px solid black;
-    display: inline;
+div{
+    /* border: 1px solid red; */
+    color: white;
+    /* display: inline-block; */
+    background-color: white;}
+
+.left-division{
+    vertical-align: top;
+    width:65%;
+    height:500px;
+    display:inline-block;
+    /* border: 1px solid blue; */
+    background-color: skyblue;
+}
+.right-division{
+    vertical-align: top;
+    width:30%;
+    height:250px;
+    display:inline-block;
+    /* border: 1px solid blue; */
+    background-color: red;
+}
+.parent-container{
+    /* border: 1px solid black; */
+    width:80%;
+    margin:auto;
 }
